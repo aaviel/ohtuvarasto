@@ -26,7 +26,7 @@ class TestVarasto(unittest.TestCase):
     def test_konstruktorissa_saldo_enemman_kuin_tilavuus(self):
         varasto = Varasto(10, 11)
 
-        self.assertAlmostEqual(varasto.saldo, 10)
+        self.assertAlmostEqual(varasto.saldo, 9)
 
     def test_lisays_ei_vahenna_saldoa(self):
         self.varasto.lisaa_varastoon(-1)
