@@ -49,6 +49,8 @@ def main():
     huono = Varasto(-100.0)
     print(huono)
 
+    print("--------------------------------------------------------------------")
+
     print("Varasto(100.0, -50.7)")
     huono = Varasto(100.0, -50.7)
     print(huono)
